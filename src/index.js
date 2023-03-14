@@ -24,5 +24,5 @@ app.get('/', (req, res) => {
   res.send('Hello this is Express.js Server');
 });
 app.listen(port, () => {
-  console.log(`Server is runing at 👉 http://localhost:${port}`);
+  console.log(`Server is running at 👉 http://localhost:${port}`);
 });
